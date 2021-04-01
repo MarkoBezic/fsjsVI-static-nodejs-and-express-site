@@ -1,0 +1,23 @@
+{
+  "name": "fsjsunit6",
+  "version": "1.0.0",
+  "description": "Full Stack Javascript Techdegree portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkoBezic/fsjsunit6-static-nodejs-and-express-site.git"
+  },
+  "author": "Marko Bezic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkoBezic/fsjsunit6-static-nodejs-and-express-site/issues"
+  },
+  "homepage": "https://github.com/MarkoBezic/fsjsunit6-static-nodejs-and-express-site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
