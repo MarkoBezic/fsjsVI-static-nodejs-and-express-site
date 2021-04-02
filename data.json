@@ -2,66 +2,80 @@
   "projects": [
     {
       "id": "1",
-      "project_name": "name",
-      "description": "desc",
-      "technologies": "techs",
-      "live_link": "link",
-      "github_link": "gitlink",
-      "image_urls": "imgurls"
+      "project_name": "Quote Generator",
+      "description": "Generates random quotes",
+      "technologies": "Javascript, HTML and CSS",
+      "live_link": "https://markobezic.github.io/fsjsunit1-quote-generator/",
+      "github_link": "https://github.com/MarkoBezic/fsjsunit1-quote-generator",
+      "image_urls": [
+        "/images/1square.png", "/images/1ls.png"
+      ]
     },
     {
       "id": "2",
-      "project_name": "name",
-      "description": "desc",
-      "technologies": "techs",
-      "live_link": "link",
-      "github_link": "gitlink",
-      "image_urls": "imgurls"
+      "project_name": "Data Pagination",
+      "description": "Displays random list of employees and has live search functionality",
+      "technologies": "Javascript, HTML, and CSS",
+      "live_link": "https://markobezic.github.io/fsjsunit2-data-pagination/",
+      "github_link": "https://github.com/MarkoBezic/fsjsunit2-data-pagination",
+      "image_urls": [
+        "/images/2square.png", "/images/2ls.png"
+      ]
     },
     {
       "id": "3",
-      "project_name": "name",
-      "description": "desc",
-      "technologies": "techs",
-      "live_link": "link",
-      "github_link": "gitlink",
-      "image_urls": "imgurls"
+      "project_name": "Interactive Form",
+      "description": "Interactive form that validates input",
+      "technologies": "Javascript, HTML and CSS",
+      "live_link": "https://markobezic.github.io/fsjsunit3-interactive-form/",
+      "github_link": "https://github.com/MarkoBezic/fsjsunit3-interactive-form",
+      "image_urls": [
+        "/images/3square.png", "/images/3ls.png"
+      ]
     },
     {
       "id": "4",
-      "project_name": "name",
-      "description": "desc",
-      "technologies": "techs",
-      "live_link": "link",
-      "github_link": "gitlink",
-      "image_urls": "imgurls"
+      "project_name": "Game Show App",
+      "description": "Try and guess the random phrase by selecting letters from the on screen keyboard. Five wrong guesses and its GAME OVER!",
+      "technologies": "Javascript, HTML, and CSS",
+      "live_link": "https://markobezic.github.io/fsjsunit4-game-show-app/",
+      "github_link": "https://github.com/MarkoBezic/fsjsunit4-game-show-app",
+      "image_urls": [
+        "/images/4square.png", "/images/4ls.png"
+      ]
     },
     {
       "id": "5",
       "project_name": "name",
       "description": "desc",
       "technologies": "techs",
-      "live_link": "link",
-      "github_link": "gitlink",
-      "image_urls": "imgurls"
+      "live_link": "https://markobezic.github.io/fsjsunit5-public-api-requests/",
+      "github_link": "https://github.com/MarkoBezic/fsjsunit5-public-api-requests",
+      "image_urls": [
+        "/images/5square.png", "/images/5ls.png"
+      ]
     },
     {
       "id": "6",
-      "project_name": "name",
-      "description": "desc",
-      "technologies": "techs",
-      "live_link": "link",
-      "github_link": "gitlink",
-      "image_urls": "imgurls"
+      "project_name": "MightyNest",
+      "description": "A recreation of the MightyNest landing page",
+      "technologies": "Vue, HTML, and CSS",
+      "live_link": "https://agitated-boyd-b312c0.netlify.app/",
+      "github_link": "https://github.com/MarkoBezic/mightynest",
+      "image_urls": [
+        "/images/6square.png", "/images/6ls.png"
+      ]
     },
     {
       "id": "7",
-      "project_name": "name",
-      "description": "desc",
-      "technologies": "techs",
-      "live_link": "link",
-      "github_link": "gitlink",
-      "image_urls": "imgurls"
+      "project_name": "Ketonatural",
+      "description": "A recreation of the KetoNatural landing page",
+      "technologies": "HTML, CSS and Bootstrap",
+      "live_link": "https://markobezic.github.io/ketonatural/",
+      "github_link": "https://github.com/MarkoBezic/ketonatural",
+      "image_urls": [
+        "/images/7square.png", "/images/7ls.png"
+      ]
     },
     {
       "id": "8",
@@ -70,7 +84,9 @@
       "technologies": "techs",
       "live_link": "link",
       "github_link": "gitlink",
-      "image_urls": "imgurls"
+      "image_urls": [
+        "/images/8square.png", "/images/8ls.png"
+      ]
     }
   ]
 
