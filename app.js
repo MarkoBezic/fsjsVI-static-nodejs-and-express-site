@@ -1,5 +1,6 @@
 const express = require("express");
 const data = require("./data.json");
+const { projects } = data;
 
 const app = express();
 
@@ -9,11 +10,12 @@ app.listen(3000, () => {
 
 app.set("view engine", "pug");
 
-//TODO: review serving static files in express
-app.use(express.static("/public"));
+app.use("/static", express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("index");
+  const { projects } = req.query;
+  console.log(projects);
+  res.render("index", { projects });
 });
 
 app.get("/about", (req, res) => {
