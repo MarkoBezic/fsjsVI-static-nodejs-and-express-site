@@ -46,7 +46,7 @@
     },
     {
       "id": "5",
-      "project_name": "name",
+      "project_name": "Public API Directory",
       "description": "desc",
       "technologies": "techs",
       "live_link": "https://markobezic.github.io/fsjsunit5-public-api-requests/",
@@ -79,7 +79,7 @@
     },
     {
       "id": "8",
-      "project_name": "name",
+      "project_name": "React Task Timer",
       "description": "desc",
       "technologies": "techs",
       "live_link": "link",
