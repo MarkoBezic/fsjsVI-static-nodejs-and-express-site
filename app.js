@@ -13,7 +13,6 @@ app.set("view engine", "pug");
 app.use("/static", express.static("public"));
 
 app.get("/", (req, res) => {
-  console.log(projects);
   res.render("index", { projects });
 });
 
@@ -22,3 +21,27 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/projects/:id", (req, res) => {});
+
+//catch 404 error forward to error handler
+app.use((req, res, next) => {
+  const err = new Error("Not Found");
+  err.status = 404;
+  next(err);
+});
+
+//error handler
+app.use((err, req, res, next) => {
+  res.locals.error = err;
+  res.status(err.status);
+  res.render("error");
+});
+
+//global error handler
+app.use((err, req, res, next) => {
+  if (err) {
+    console.log("Globarl error handler called", err.message, err.status);
+  }
+  res.locals.error = err;
+  res.status(err.status);
+  res.render("error");
+});

@@ -57,7 +57,7 @@
     },
     {
       "id": "6",
-      "project_name": "MightyNest",
+      "project_name": "MightyNest Landing Page Clone",
       "description": "A recreation of the MightyNest landing page",
       "technologies": "Vue, HTML, and CSS",
       "live_link": "https://agitated-boyd-b312c0.netlify.app/",
@@ -68,7 +68,7 @@
     },
     {
       "id": "7",
-      "project_name": "Ketonatural",
+      "project_name": "Ketonatural Landing Page Clone",
       "description": "A recreation of the KetoNatural landing page",
       "technologies": "HTML, CSS and Bootstrap",
       "live_link": "https://markobezic.github.io/ketonatural/",
@@ -80,10 +80,10 @@
     {
       "id": "8",
       "project_name": "React Task Timer",
-      "description": "desc",
-      "technologies": "techs",
-      "live_link": "link",
-      "github_link": "gitlink",
+      "description": "Tracks time spent on specific tasks created by user",
+      "technologies": "React, Firbase",
+      "live_link": "https://intense-plateau-48336.herokuapp.com/",
+      "github_link": "https://github.com/MarkoBezic/pomreact",
       "image_urls": [
         "/static/images/8square.png", "/static/images/8ls.png"
       ]
