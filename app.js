@@ -13,7 +13,6 @@ app.set("view engine", "pug");
 app.use("/static", express.static("public"));
 
 app.get("/", (req, res) => {
-  const { projects } = req.query;
   console.log(projects);
   res.render("index", { projects });
 });
