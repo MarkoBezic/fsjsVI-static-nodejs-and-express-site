@@ -8,10 +8,13 @@ app.listen(3000, () => {
   console.log("The application is running on localhost:3000!");
 });
 
+// View engine setup
 app.set("view engine", "pug");
 
+// Add static middleware
 app.use("/static", express.static("public"));
 
+// Add routes
 app.get("/", (req, res) => {
   res.render("index", { projects });
 });
@@ -28,16 +31,14 @@ app.get("/projects/:id", (req, res) => {
 
 //catch 404 error forward to error handler
 app.use((req, res, next) => {
-  const err = new Error("Not Found");
+  const err = new Error("404 Not Found");
   err.status = 404;
   next(err);
 });
 
-//error handler
-app.use((err, req, res, next) => {
-  res.locals.error = err;
-  res.status(err.status);
-  res.render("error");
+//404 error handler
+app.use((req, res, next) => {
+  res.render("page-not-found", { err });
 });
 
 //global error handler
@@ -45,7 +46,12 @@ app.use((err, req, res, next) => {
   if (err) {
     console.log("Globarl error handler called", err.message, err.status);
   }
-  res.locals.error = err;
-  res.status(err.status);
-  res.render("error");
+  if (err.status === 404) {
+    res.status(err.status);
+    res.render("page-not-found", { err });
+  } else {
+    err.message = err.message;
+    res.status = err.status;
+    res.render("error", { err });
+  }
 });

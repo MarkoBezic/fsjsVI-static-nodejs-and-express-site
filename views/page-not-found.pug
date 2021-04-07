@@ -1,0 +1,9 @@
+extends layout 
+
+block content 
+  h1= "Page not found"
+  h2= "I looks like the page you're looking for does not exist!" 
+  h3= err.message
+
+  if err
+    pre #{err.stack}
