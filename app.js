@@ -20,7 +20,11 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
-app.get("/projects/:id", (req, res) => {});
+app.get("/projects/:id", (req, res) => {
+  const projectId = req.params.id;
+  const project = projects.find(({ id }) => id === +projectId);
+  res.render("project", { project });
+});
 
 //catch 404 error forward to error handler
 app.use((req, res, next) => {
