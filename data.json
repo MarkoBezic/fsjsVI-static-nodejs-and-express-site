@@ -1,61 +1,6 @@
 {
   "projects": [
     {
-      "id": 1,
-      "project_name": "Quote Generator",
-      "description": "Generates random quotes when 'Show another quote' button is clicked. If not clicked within 10 seconds the quote will automatically generate another quote",
-      "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "https://markobezic.github.io/fsjsunit1-quote-generator/",
-      "github_link": "https://github.com/MarkoBezic/fsjsunit1-quote-generator",
-      "image_urls": [
-        "/static/images/1square.png", "/static/images/1ls.png"
-      ]
-    },
-    {
-      "id": 2,
-      "project_name": "Data Pagination",
-      "description": "Displays random list of employees and has live search functionality",
-      "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "https://markobezic.github.io/fsjsunit2-data-pagination/",
-      "github_link": "https://github.com/MarkoBezic/fsjsunit2-data-pagination",
-      "image_urls": [
-        "/static/images/2square.png", "/static/images/2ls.png"
-      ]
-    },
-    {
-      "id": 3,
-      "project_name": "Interactive Form",
-      "description": "Interactive form that validates input",
-      "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "https://markobezic.github.io/fsjsunit3-interactive-form/",
-      "github_link": "https://github.com/MarkoBezic/fsjsunit3-interactive-form",
-      "image_urls": [
-        "/static/images/3square.png", "/static/images/3ls.png"
-      ]
-    },
-    {
-      "id": 4,
-      "project_name": "Game Show App",
-      "description": "Try and guess the random phrase by selecting letters from the on screen keyboard. Five wrong guesses and its GAME OVER!",
-      "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "https://markobezic.github.io/fsjsunit4-game-show-app/",
-      "github_link": "https://github.com/MarkoBezic/fsjsunit4-game-show-app",
-      "image_urls": [
-        "/static/images/4square.png", "/static/images/4ls.png"
-      ]
-    },
-    {
-      "id": 5,
-      "project_name": "Public API Directory",
-      "description": "Pulls random list of employee from pubic api and includes live search functionality",
-      "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "https://markobezic.github.io/fsjsunit5-public-api-requests/",
-      "github_link": "https://github.com/MarkoBezic/fsjsunit5-public-api-requests",
-      "image_urls": [
-        "/static/images/5square.png", "/static/images/5ls.png"
-      ]
-    },
-    {
       "id": 6,
       "project_name": "MightyNest Landing Page Clone",
       "description": "A recreation of the MightyNest landing page",
@@ -87,7 +32,62 @@
       "image_urls": [
         "/static/images/8square.png", "/static/images/8ls.png"
       ]
+    },
+    {
+      "id": 5,
+      "project_name": "Public API Directory",
+      "description": "Pulls random list of employee from pubic api and includes live search functionality",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://markobezic.github.io/fsjsunit5-public-api-requests/",
+      "github_link": "https://github.com/MarkoBezic/fsjsunit5-public-api-requests",
+      "image_urls": [
+        "/static/images/5square.png", "/static/images/5ls.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Game Show App",
+      "description": "Try and guess the random phrase by selecting letters from the on screen keyboard. Five wrong guesses and its GAME OVER!",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://markobezic.github.io/fsjsunit4-game-show-app/",
+      "github_link": "https://github.com/MarkoBezic/fsjsunit4-game-show-app",
+      "image_urls": [
+        "/static/images/4square.png", "/static/images/4ls.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Interactive Form",
+      "description": "Interactive form that validates input",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://markobezic.github.io/fsjsunit3-interactive-form/",
+      "github_link": "https://github.com/MarkoBezic/fsjsunit3-interactive-form",
+      "image_urls": [
+        "/static/images/3square.png", "/static/images/3ls.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Data Pagination",
+      "description": "Displays random list of employees and has live search functionality",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://markobezic.github.io/fsjsunit2-data-pagination/",
+      "github_link": "https://github.com/MarkoBezic/fsjsunit2-data-pagination",
+      "image_urls": [
+        "/static/images/2square.png", "/static/images/2ls.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Quote Generator",
+      "description": "Generates random quotes when 'Show another quote' button is clicked. If not clicked within 10 seconds the quote will automatically generate another quote",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://markobezic.github.io/fsjsunit1-quote-generator/",
+      "github_link": "https://github.com/MarkoBezic/fsjsunit1-quote-generator",
+      "image_urls": [
+        "/static/images/1square.png", "/static/images/1ls.png"
+      ]
     }
   ]
-
+  
 }
